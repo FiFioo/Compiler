@@ -58,7 +58,7 @@ void loadProduction()
     production.push_back(*p);
 
     /*****
-        Óï¾ä±í--Óï¾ä
+        è¯­å¥è¡¨--è¯­å¥
     */
     temp_string = new string(VN::STATEMENT_TABLE);
     temp.clear();
@@ -69,7 +69,7 @@ void loadProduction()
 
 
     /*****
-        Óï¾ä±í--Óï¾ä
+        è¯­å¥è¡¨--è¯­å¥
     */
     temp_string = new string(VN::STATEMENT_TABLE);
     temp.clear();
@@ -82,7 +82,7 @@ void loadProduction()
 
 
     /*****
-        Óï¾ä--¸³ÖµÓï¾ä
+        è¯­å¥--èµ‹å€¼è¯­å¥
     */
     temp_string = new string(VN::STATEMENT);
     temp.clear();
@@ -93,7 +93,7 @@ void loadProduction()
 
 
     /*****
-        Óï¾ä--Ìõ¼þÓï¾ä
+        è¯­å¥--æ¡ä»¶è¯­å¥
     */
     temp_string = new string(VN::STATEMENT);
     temp.clear();
@@ -104,7 +104,7 @@ void loadProduction()
 
 
     /*****
-        Óï¾ä--whileÓï¾ä
+        è¯­å¥--whileè¯­å¥
     */
     temp_string = new string(VN::STATEMENT);
     temp.clear();
@@ -115,7 +115,7 @@ void loadProduction()
 
 
     /*****
-        Óï¾ä--¸´ºÏÓï¾ä
+        è¯­å¥--å¤åˆè¯­å¥
     */
     temp_string = new string(VN::STATEMENT);
     temp.clear();
@@ -126,7 +126,7 @@ void loadProduction()
 
 
     /*****
-        ¸³ÖµÓï¾ä -- ±äÁ¿:=ËãÊõ±í´ïÊ½
+        èµ‹å€¼è¯­å¥ -- å˜é‡:=ç®—æœ¯è¡¨è¾¾å¼
     */
     temp_string = new string(VN::ASSIGN_STATEMENT);
     temp.clear();
@@ -139,7 +139,7 @@ void loadProduction()
 
 
     /*****
-        Ìõ¼þÓï¾ä -- if ¹ØÏµ±í´ïÊ½ then Óï¾ä else Óï¾ä
+        æ¡ä»¶è¯­å¥ -- if å…³ç³»è¡¨è¾¾å¼ then è¯­å¥ else è¯­å¥
     */
     temp_string = new string(VN::CONDITION_STATEMENT);
     temp.clear();
@@ -155,7 +155,7 @@ void loadProduction()
 
 
     /*****
-        WhileÓï¾ä -- while ¹ØÏµ±í´ïÊ½ do Óï¾ä
+        Whileè¯­å¥ -- while å…³ç³»è¡¨è¾¾å¼ do è¯­å¥
     */
     temp_string = new string(VN::WHILE_STATEMENT);
     temp.clear();
@@ -169,7 +169,7 @@ void loadProduction()
 
 
     /*****
-        ¹ØÏµ±í´ïÊ½ -- ËãÊõ±í´ïÊ½ ¹ØÏµ·û ËãÊõ±í´ïÊ½
+        å…³ç³»è¡¨è¾¾å¼ -- ç®—æœ¯è¡¨è¾¾å¼ å…³ç³»ç¬¦ ç®—æœ¯è¡¨è¾¾å¼
     */
     temp_string = new string(VN::RELATION_EXPRESSION);
     temp.clear();
@@ -182,7 +182,7 @@ void loadProduction()
 
 
     /*****
-        ¸´ºÏÓï¾ä -- begin Óï¾ä±í end
+        å¤åˆè¯­å¥ -- begin è¯­å¥è¡¨ end
     */
     temp_string = new string(VN::COMPOSITE_STATEMENT);
     temp.clear();
@@ -573,7 +573,7 @@ void reduction(int production_id)
 {
     int pop_times = production[production_id].right.size() -1;
 
-    printf("¹éÔ¼µÄ²úÉúÊ½ÊÇ £º -> ");
+    printf("å½’çº¦çš„äº§ç”Ÿå¼æ˜¯ ï¼š -> ");
     production[production_id].print();
 
     for (int i = 0; i < pop_times; ++i){
