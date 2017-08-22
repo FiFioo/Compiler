@@ -10,10 +10,14 @@ Curriculum Design
     
 完成功能：
     词法分析、语法分析(SLR)
-
-MyCompile文件夹：
-    Code::Blocks16.01环境下编译的工程
-    
+    
     
 src文件夹:
     代码源文件
+    
+    
+Instruction.docx :
+    简化Pascal的基本文法、语法规则的说明
+
+MyCompile文件夹：
+    Code::Blocks16.01环境下编译的工程
