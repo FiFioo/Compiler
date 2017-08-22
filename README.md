@@ -11,9 +11,9 @@ Curriculum Design
 完成功能：
     词法分析、语法分析(SLR)
     
-    
-src文件夹:
-         代码源文件
+
+src文件夹：
+    代码源文件
     
     
 Instruction.docx :
