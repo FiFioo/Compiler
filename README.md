@@ -1,9 +1,6 @@
 # Compiler
 Curriculum Design
 
-
-环境：
-    Code::Blocks16.01
     
 开发语言：
     C++
@@ -13,3 +10,10 @@ Curriculum Design
     
 完成功能：
     词法分析、语法分析(SLR)
+
+MyCompile文件夹：
+    Code::Blocks16.01环境下编译的工程
+    
+    
+src文件夹:
+    代码源文件
