@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1503398654 source:d:\project\codeblock projects\mycompiler\mylex.cpp
+	"myLEX.h"
+
+1503334262 d:\project\codeblock projects\mycompiler\mylex.h
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<cctype>
+	"class.h"
+
+1503334262 d:\project\codeblock projects\mycompiler\class.h
+	<string>
+
+1503398593 source:d:\project\codeblock projects\mycompiler\myparser.cpp
+	"myParser.h"
+
+1503334262 d:\project\codeblock projects\mycompiler\myparser.h
+	<cstdio>
+	<cstring>
+	<iostream>
+	<string>
+	<map>
+	<stack>
+	<vector>
+	<iterator>
+	<typeinfo>
+	<algorithm>
+	"myLEX.h"
+	"class.h"
+
+1503399122 source:d:\project\codeblock projects\mycompiler\main.cpp
+	<iostream>
+	"myLEX.h"
+	"myParser.h"
+
